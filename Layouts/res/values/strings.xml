@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Examples of Layouts</string>
+    <string name="nested_layouts_app">Using Nested Layouts</string>
+    <string name="layout_weights_app">Using Layout Weights</string>
+    <string name="relative_layouts_app">Using Relative Layouts</string>
+    <string name="table_layouts_app">Using Table Layouts</string>
+
+</resources>
