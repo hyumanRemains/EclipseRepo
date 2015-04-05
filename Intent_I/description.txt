@@ -1,0 +1,7 @@
+Activities can be invoked in three ways:
+	1. From Class Name
+		-Define font dimensions in res/values
+		-using extras from bundle and randomizer to generate data.
+			&#160: whitespace
+	2. From URI
+	3. Invoking with Tabbed windows

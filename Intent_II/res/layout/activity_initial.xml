@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:onClick="showLoanPayments1"
+            android:text="Calculate Loan (Data in Extras)" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/loan_amount_prompt" />
+
+        <EditText
+            android:id="@+id/loan_amount"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" >
+
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/interest_rate_prompt" />
+
+        <EditText
+            android:id="@+id/interest_rate"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/loan_period_prompt" />
+
+        <EditText
+            android:id="@+id/loan_period"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:onClick="showLoanPayments2"
+            android:text="Calculate Loan Payments (Data in URI)" />
+    </TableRow>
+
+</TableLayout>

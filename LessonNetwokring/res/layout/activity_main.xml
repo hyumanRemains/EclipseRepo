@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchToNistTimeActivity"
+        android:text="Go to NIST Time Lookup" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchToFtpMessageViewer"
+        android:text="Go to FTP Message Viewer" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchToUrlChecker"
+        android:text="Go to URL Checker" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchToUrlSearcher1"
+        android:text="Go to URL Searcher 1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchToUrlSearcher2"
+        android:text="Go to URL Searcher 2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchToLoanCalculator"
+        android:text="Go to Loan Calculator" />
+
+</LinearLayout>
